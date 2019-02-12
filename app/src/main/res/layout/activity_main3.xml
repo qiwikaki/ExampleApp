@@ -764,7 +764,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/button1"
-                android:text="checkGraphButton"
+                android:text="checkGraph"
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="58dp"
                 tools:layout_editor_absoluteY="364dp" />
