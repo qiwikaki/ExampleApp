@@ -100,57 +100,57 @@ public class Main3Activity extends AppCompatActivity {
 
 
 
-        double RuOnDelta0 = A1 + B1*0 + C1*1 + D1*0 + E1*1;
-        double RuOnDelta15 = A1 + B1*0.2588 + C1*0.9659 + D1*0.5 + E1*0.866;
-        double RuOnDelta30 = A1 + B1*0.5 + C1*0.866 + D1*0.866 + E1*0.5;
-        double RuOnDelta45 = A1 + B1*0.7071 + C1*0.7071 + D1*1 + E1*0;
-        double RuOnDelta60 = A1 + B1*0.866 + C1*0.5 + D1*0.866 + E1*(-0.5);
-        double RuOnDelta75 = A1 + B1*0.9659 + C1*0.2588 + D1*0.5 + E1*(-0.866);
-        double RuOnDelta90 = A1 + B1*1 + C1*0 + D1*0 + E1*(-1);
-        double RuOnDelta105 = A1 + B1*0.9659 + C1*(-0.258) + D1*(-0.5) + E1*(-0.866);
-        double RuOnDelta120 = A1 + B1*.866 + C1*(-0.5) + D1*(-0.866) + E1*(-0.5);
-        double RuOnDelta135 = A1 + B1*0.7071 + C1*(-0.7071) + D1*(-1) + E1*0;
-        double RuOnDelta150 = A1 + B1*0.5 + C1*(-0.866) + D1*(-0.866) + E1*0.5;
-        double RuOnDelta165 = A1 + B1*0.2588 + C1*(-0.9659) + D1*(-0.5) + E1*0.866;
-        double RuOnDelta180 = A1 + B1*0 + C1*(-1) + D1*0 + E1*1;
-        double RuOnDelta195 = A1 + B1*(-0.2588) + C1*(-0.9659) + D1*0.5 + E1*0.866;
-        double RuOnDelta210 = A1 + B1*(-0.5) + C1*(-0.866) + D1*0.866 + E1*0.5;
-        double RuOnDelta225 = A1 + B1*(-0.7071) + C1*(-0.7071) + D1*1 + E1*0;
-        double RuOnDelta240 = A1 + B1*(-0.866) + C1*(-0.5) + D1*0.866 + E1*(-0.5);
-        double RuOnDelta255 = A1 + B1*(-0.9659) + C1*(-0.258) + D1*0.5 + E1*(-0.866);
-        double RuOnDelta270 = A1 + B1*(-1) + C1*0 + D1*0 + E1*(-1);
-        double RuOnDelta285 = A1 + B1*(-0.9659) + C1*0.2588 + D1*(-0.5) + E1*(-0.866);
-        double RuOnDelta300 = A1 + B1*(-0.866) + C1*0.5 + D1*(-0.866) + E1*(-0.5);
-        double RuOnDelta315 = A1 + B1*(-0.7071) + C1*0.7071 + D1*(-1) + E1*0;
-        double RuOnDelta330 = A1 + B1*(-0.5) + C1*0.866 + D1*(-0.866) + E1*0.5;
-        double RuOnDelta345 = A1 + B1*(-0.2588) + C1*0.9659 + D1*(-0.5) + E1*0.866;
-        double RuOnDelta360 = A1 + B1*0 + C1*1 + D1*0 + E1*1;
+        double RuOnDelta0 = (A1 + B1*0 + C1*1 + D1*0 + E1*1) - A1;
+        double RuOnDelta15 = (A1 + B1*0.2588 + C1*0.9659 + D1*0.5 + E1*0.866) - A1;
+        double RuOnDelta30 = (A1 + B1*0.5 + C1*0.866 + D1*0.866 + E1*0.5) - A1;
+        double RuOnDelta45 = (A1 + B1*0.7071 + C1*0.7071 + D1*1 + E1*0) - A1;
+        double RuOnDelta60 = (A1 + B1*0.866 + C1*0.5 + D1*0.866 + E1*(-0.5)) - A1;
+        double RuOnDelta75 = (A1 + B1*0.9659 + C1*0.2588 + D1*0.5 + E1*(-0.866)) - A1;
+        double RuOnDelta90 = (A1 + B1*1 + C1*0 + D1*0 + E1*(-1)) - A1;
+        double RuOnDelta105 = (A1 + B1*0.9659 + C1*(-0.258) + D1*(-0.5) + E1*(-0.866)) - A1;
+        double RuOnDelta120 = (A1 + B1*.866 + C1*(-0.5) + D1*(-0.866) + E1*(-0.5)) - A1;
+        double RuOnDelta135 = (A1 + B1*0.7071 + C1*(-0.7071) + D1*(-1) + E1*0) - A1;
+        double RuOnDelta150 = (A1 + B1*0.5 + C1*(-0.866) + D1*(-0.866) + E1*0.5) - A1;
+        double RuOnDelta165 = (A1 + B1*0.2588 + C1*(-0.9659) + D1*(-0.5) + E1*0.866) - A1;
+        double RuOnDelta180 = (A1 + B1*0 + C1*(-1) + D1*0 + E1*1) - A1;
+        double RuOnDelta195 = (A1 + B1*(-0.2588) + C1*(-0.9659) + D1*0.5 + E1*0.866) - A1;
+        double RuOnDelta210 = (A1 + B1*(-0.5) + C1*(-0.866) + D1*0.866 + E1*0.5) - A1;
+        double RuOnDelta225 = (A1 + B1*(-0.7071) + C1*(-0.7071) + D1*1 + E1*0) - A1;
+        double RuOnDelta240 = (A1 + B1*(-0.866) + C1*(-0.5) + D1*0.866 + E1*(-0.5)) - A1;
+        double RuOnDelta255 = (A1 + B1*(-0.9659) + C1*(-0.258) + D1*0.5 + E1*(-0.866)) - A1;
+        double RuOnDelta270 = (A1 + B1*(-1) + C1*0 + D1*0 + E1*(-1)) - A1;
+        double RuOnDelta285 = (A1 + B1*(-0.9659) + C1*0.2588 + D1*(-0.5) + E1*(-0.866)) - A1;
+        double RuOnDelta300 = (A1 + B1*(-0.866) + C1*0.5 + D1*(-0.866) + E1*(-0.5)) - A1;
+        double RuOnDelta315 = (A1 + B1*(-0.7071) + C1*0.7071 + D1*(-1) + E1*0) - A1;
+        double RuOnDelta330 = (A1 + B1*(-0.5) + C1*0.866 + D1*(-0.866) + E1*0.5) - A1;
+        double RuOnDelta345 = (A1 + B1*(-0.2588) + C1*0.9659 + D1*(-0.5) + E1*0.866) - A1;
+        double RuOnDelta360 = (A1 + B1*0 + C1*1 + D1*0 + E1*1) - A1;
 
-        double RuOffDelta0 = A2 +B2*0 + C2*1 +D2*0 + E2*1;
-        double RuOffDelta15 = A2 +B2*0.2588 + C2*0.9659 +D2*0.5 + E2*0.866;
-        double RuOffDelta30 = A2 +B2*0.5 + C2*0.866 +D2*0.866 + E2*0.5;
-        double RuOffDelta45 = A2 +B2*0.7071 + C2*0.7071 +D2*1 + E2*0;
-        double RuOffDelta60 = A2 +B2*0.866 + C2*0.5 +D2*0.866 + E2*(-0.5);
-        double RuOffDelta75 = A2 +B2*0.9659 + C2*0.2588 +D2*0.5 + E2*(-0.866);
-        double RuOffDelta90 = A2 +B2*1 + C2*0 +D2*0 + E2*(-1);
-        double RuOffDelta105 = A2 +B2*0.9659 + C2*(-0.258) +D2*(-0.5) + E2*(-0.866);
-        double RuOffDelta120 = A2 +B2*.866 + C2*(-0.5) +D2*(-0.866) + E2*(-0.5);
-        double RuOffDelta135 = A2 +B2*0.7071 + C2*(-0.7071) +D2*(-1) + E2*0;
-        double RuOffDelta150 = A2 +B2*0.5 + C2*(-0.866) +D2*(-0.866) + E2*0.5;
-        double RuOffDelta165 = A2 +B2*0.2588 + C2*(-0.9659) +D2*(-0.5) + E2*0.866;
-        double RuOffDelta180 = A2 +B2*0 + C2*(-1) +D2*0 + E2*1;
-        double RuOffDelta195 = A2 +B2*(-0.2588) + C2*(-0.9659) +D2*0.5 + E2*0.866;
-        double RuOffDelta210 = A2 +B2*(-0.5) + C2*(-0.866) +D2*0.866 + E2*0.5;
-        double RuOffDelta225 = A2 +B2*(-0.7071) + C2*(-0.7071) +D2*1 + E2*0;
-        double RuOffDelta240 = A2 +B2*(-0.866) + C2*(-0.5) +D2*0.866 + E2*(-0.5);
-        double RuOffDelta255 = A2 +B2*(-0.9659) + C2*(-0.258) +D2*0.5 + E2*(-0.866);
-        double RuOffDelta270 = A2 +B2*(-1) + C2*0 +D2*0 + E2*(-1);
-        double RuOffDelta285 = A2 +B2*(-0.9659) + C2*0.2588 +D2*(-0.5) + E2*(-0.866);
-        double RuOffDelta300 = A2 +B2*(-0.866) + C2*0.5 +D2*(-0.866) + E2*(-0.5);
-        double RuOffDelta315 = A2 +B2*(-0.7071) + C2*0.7071 +D2*(-1) + E2*0;
-        double RuOffDelta330 = A2 +B2*(-0.5) + C2*0.866 +D2*(-0.866) + E2*0.5;
-        double RuOffDelta345 = A2 +B2*(-0.2588) + C2*0.9659 +D2*(-0.5) + E2*0.866;
-        double RuOffDelta360 = A2 +B2*0 + C2*1 +D2*0 + E2*1;
+        double RuOffDelta0 = (A2 +B2*0 + C2*1 +D2*0 + E2*1) - A2;
+        double RuOffDelta15 = (A2 +B2*0.2588 + C2*0.9659 +D2*0.5 + E2*0.866) - A2;
+        double RuOffDelta30 = (A2 +B2*0.5 + C2*0.866 +D2*0.866 + E2*0.5) - A2;
+        double RuOffDelta45 = (A2 +B2*0.7071 + C2*0.7071 +D2*1 + E2*0) - A2;
+        double RuOffDelta60 = (A2 +B2*0.866 + C2*0.5 +D2*0.866 + E2*(-0.5)) - A2;
+        double RuOffDelta75 = (A2 +B2*0.9659 + C2*0.2588 +D2*0.5 + E2*(-0.866)) - A2;
+        double RuOffDelta90 = (A2 +B2*1 + C2*0 +D2*0 + E2*(-1)) - A2;
+        double RuOffDelta105 = (A2 +B2*0.9659 + C2*(-0.258) +D2*(-0.5) + E2*(-0.866)) - A2;
+        double RuOffDelta120 = (A2 +B2*.866 + C2*(-0.5) +D2*(-0.866) + E2*(-0.5)) - A2;
+        double RuOffDelta135 = (A2 +B2*0.7071 + C2*(-0.7071) +D2*(-1) + E2*0) - A2;
+        double RuOffDelta150 = (A2 +B2*0.5 + C2*(-0.866) +D2*(-0.866) + E2*0.5) - A2;
+        double RuOffDelta165 = (A2 +B2*0.2588 + C2*(-0.9659) +D2*(-0.5) + E2*0.866) - A2;
+        double RuOffDelta180 = (A2 +B2*0 + C2*(-1) +D2*0 + E2*1) - A2;
+        double RuOffDelta195 = (A2 +B2*(-0.2588) + C2*(-0.9659) +D2*0.5 + E2*0.866) - A2;
+        double RuOffDelta210 = (A2 +B2*(-0.5) + C2*(-0.866) +D2*0.866 + E2*0.5) - A2;
+        double RuOffDelta225 = (A2 +B2*(-0.7071) + C2*(-0.7071) +D2*1 + E2*0) - A2;
+        double RuOffDelta240 = (A2 +B2*(-0.866) + C2*(-0.5) +D2*0.866 + E2*(-0.5)) - A2;
+        double RuOffDelta255 = (A2 +B2*(-0.9659) + C2*(-0.258) +D2*0.5 + E2*(-0.866)) - A2;
+        double RuOffDelta270 = (A2 +B2*(-1) + C2*0 +D2*0 + E2*(-1)) - A2;
+        double RuOffDelta285 = (A2 +B2*(-0.9659) + C2*0.2588 +D2*(-0.5) + E2*(-0.866)) - A2;
+        double RuOffDelta300 = (A2 +B2*(-0.866) + C2*0.5 +D2*(-0.866) + E2*(-0.5)) - A2;
+        double RuOffDelta315 = (A2 +B2*(-0.7071) + C2*0.7071 +D2*(-1) + E2*0) - A2;
+        double RuOffDelta330 = (A2 +B2*(-0.5) + C2*0.866 +D2*(-0.866) + E2*0.5) - A2;
+        double RuOffDelta345 = (A2 +B2*(-0.2588) + C2*0.9659 +D2*(-0.5) + E2*0.866) - A2;
+        double RuOffDelta360 = (A2 +B2*0 + C2*1 +D2*0 + E2*1) - A2;
 
 
         TextView textResult11 = (TextView)findViewById(R.id.result11);
@@ -204,11 +204,36 @@ public class Main3Activity extends AppCompatActivity {
         TextView textResult223 = (TextView)findViewById(R.id.result223);
         TextView textResult224 = (TextView)findViewById(R.id.result224);
         TextView textResult225 = (TextView)findViewById(R.id.result225);
+//
+        TextView resultA1 = (TextView)findViewById(R.id.A1);
+        TextView resultA2 = (TextView)findViewById(R.id.A2);
+        TextView resultB1 = (TextView)findViewById(R.id.B1);
+        TextView resultB2 = (TextView)findViewById(R.id.B2);
+        TextView resultC1 = (TextView)findViewById(R.id.C1);
+        TextView resultC2 = (TextView)findViewById(R.id.C2);
+        TextView resultE1 = (TextView)findViewById(R.id.D1);
+        TextView resultE2 = (TextView)findViewById(R.id.D2);
+        TextView resultD1 = (TextView)findViewById(R.id.E1);
+        TextView resultD2 = (TextView)findViewById(R.id.E2);
+
 
         DecimalFormatSymbols otherSymbols = new DecimalFormatSymbols(Locale.US);
         String pattern = "##0.0";
         DecimalFormat decimalFormat = new DecimalFormat(pattern, otherSymbols);
 
+
+        resultA1.setText(decimalFormat.format(A1));
+        resultA2.setText(decimalFormat.format(A2));
+        resultB1.setText(decimalFormat.format(B1));
+        resultB2.setText(decimalFormat.format(B2));
+        resultC1.setText(decimalFormat.format(C1));
+        resultC2.setText(decimalFormat.format(C2));
+        resultE1.setText(decimalFormat.format(D1));
+        resultE2.setText(decimalFormat.format(D2));
+        resultD1.setText(decimalFormat.format(E1));
+        resultD2.setText(decimalFormat.format(E2));
+
+        //
         textResult11.setText(decimalFormat.format(RuOnDelta0));
         textResult12.setText(decimalFormat.format(RuOnDelta15));
         textResult13.setText(decimalFormat.format(RuOnDelta30));

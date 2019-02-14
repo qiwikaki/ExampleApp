@@ -204,14 +204,14 @@ public class Main4Activity extends AppCompatActivity {
                 new DataPoint(360, deltaOnGraph360)
         });
         series2.setTitle("Random");
-        series2.setColor(Color.BLUE);
+        series2.setColor(Color.GREEN);
         graph.addSeries(series2);
         graph.getGridLabelRenderer().setHorizontalAxisTitle("KK");
         graph.getGridLabelRenderer().setVerticalAxisTitle("δв(ВЫКЛ),δв(ВКЛ)");
         graph.getGridLabelRenderer().setHorizontalLabelsColor(Color.BLACK);
         graph.getGridLabelRenderer().setVerticalLabelsColor(Color.BLACK);
-        graph.getGridLabelRenderer().setHorizontalAxisTitleColor(Color.GREEN);
-        graph.getGridLabelRenderer().setVerticalAxisTitleColor(Color.GREEN);
+        graph.getGridLabelRenderer().setHorizontalAxisTitleColor(Color.BLUE);
+        graph.getGridLabelRenderer().setVerticalAxisTitleColor(Color.BLUE);
         graph.getViewport().setScalable(true);
         graph.getViewport().setScrollable(true);
     }

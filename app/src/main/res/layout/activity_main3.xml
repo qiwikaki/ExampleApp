@@ -750,13 +750,183 @@
                     android:textColor="#000000"/>
 
             </TableRow>
+            <TextView
+                android:id="@+id/propusk"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text=" "
+                android:textColor="#000000"/>
 
             <TextView
                 android:id="@+id/probel"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
-                android:text=" "
-                android:textColor="#000000"/>
+                android:gravity="center"
+                android:text="КОЭФФИЦИЕНТЫ"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/ppp"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text=" РУ"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/pp"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:text="Выключено"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/p"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text="Включено"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/A"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text=" A"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/A1"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="A1"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/A2"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text="A2"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/B"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text=" B"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/B1"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:text="B1"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/B2"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text="B2"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/C"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text=" C"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/C1"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:text="C1"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/C2"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text="C2"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/D"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text=" D"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/D1"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:text="D1"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/D2"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text="D2"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/E"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text=" E"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/E1"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:text="E1"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/E2"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:text="E2"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"/>
+            </TableRow>
 
             <Button
                 android:id="@+id/graph"
@@ -768,6 +938,7 @@
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="58dp"
                 tools:layout_editor_absoluteY="364dp" />
+
         </TableLayout>
     </ScrollView>
 

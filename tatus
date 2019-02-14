@@ -1,0 +1,199 @@
+[1mdiff --git a/app/src/main/res/layout/activity_main3.xml b/app/src/main/res/layout/activity_main3.xml[m
+[1mindex f4bf00a..fd7f185 100644[m
+[1m--- a/app/src/main/res/layout/activity_main3.xml[m
+[1m+++ b/app/src/main/res/layout/activity_main3.xml[m
+[36m@@ -750,14 +750,184 @@[m
+                     android:textColor="#000000"/>[m
+ [m
+             </TableRow>[m
+[31m-[m
+             <TextView[m
+[31m-                android:id="@+id/probel"[m
+[32m+[m[32m                android:id="@+id/propusk"[m
+                 android:layout_width="wrap_content"[m
+                 android:layout_height="30dp"[m
+                 android:text=" "[m
+                 android:textColor="#000000"/>[m
+ [m
+[32m+[m[32m            <TextView[m
+[32m+[m[32m                android:id="@+id/probel"[m
+[32m+[m[32m                android:layout_width="wrap_content"[m
+[32m+[m[32m                android:layout_height="30dp"[m
+[32m+[m[32m                android:gravity="center"[m
+[32m+[m[32m                android:text="КОЭФФИЦИЕНТЫ"[m
+[32m+[m[32m                android:textColor="#000000"[m
+[32m+[m[32m                android:textStyle="bold" />[m
+[32m+[m[32m            <TableRow[m
+[32m+[m[32m                android:layout_width="336dp"[m
+[32m+[m[32m                android:layout_height="match_parent">[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/ppp"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:text=" РУ"[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/pp"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:layout_gravity="center"[m
+[32m+[m[32m                    android:text="Выключено"[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/p"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:text="Включено"[m
+[32m+[m[32m                    android:layout_gravity="center"[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m[32m            </TableRow>[m
+[32m+[m[32m            <TableRow[m
+[32m+[m[32m                android:layout_width="336dp"[m
+[32m+[m[32m                android:layout_height="match_parent">[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/B"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:text=" A"[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/B1"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:layout_gravity="center"[m
+[32m+[m[32m                    android:text=""[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/B2"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:text=""[m
+[32m+[m[32m                    android:layout_gravity="center"[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m[32m            </TableRow>[m
+[32m+[m[32m            <TableRow[m
+[32m+[m[32m                android:layout_width="336dp"[m
+[32m+[m[32m                android:layout_height="match_parent">[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/C"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:text=" B"[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/C1"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:layout_gravity="center"[m
+[32m+[m[32m                    android:text=""[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/C2"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:text=""[m
+[32m+[m[32m                    android:layout_gravity="center"[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m[32m            </TableRow>[m
+[32m+[m[32m            <TableRow[m
+[32m+[m[32m                android:layout_width="336dp"[m
+[32m+[m[32m                android:layout_height="match_parent">[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/D"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:text=" C"[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/D1"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:layout_gravity="center"[m
+[32m+[m[32m                    android:text=""[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/D2"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:text=""[m
+[32m+[m[32m                    android:layout_gravity="center"[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m[32m            </TableRow>[m
+[32m+[m[32m            <TableRow[m
+[32m+[m[32m                android:layout_width="336dp"[m
+[32m+[m[32m                android:layout_height="match_parent">[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/E"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:text=" D"[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/E1"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:layout_gravity="center"[m
+[32m+[m[32m                    android:text=""[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/E2"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:text=""[m
+[32m+[m[32m                    android:layout_gravity="center"[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m[32m            </TableRow>[m
+[32m+[m[32m            <TableRow[m
+[32m+[m[32m                android:layout_width="336dp"[m
+[32m+[m[32m                android:layout_height="match_parent">[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/A"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:text=" E"[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/A1"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:layout_gravity="center"[m
+[32m+[m[32m                    android:text=""[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m
+[32m+[m[32m                <TextView[m
+[32m+[m[32m                    android:id="@+id/A2"[m
+[32m+[m[32m                    android:layout_width="110dp"[m
+[32m+[m[32m                    android:layout_height="35dp"[m
+[32m+[m[32m                    android:text=""[m
+[32m+[m[32m                    android:layout_gravity="center"[m
+[32m+[m[32m                    android:textColor="#000000"/>[m
+[32m+[m[32m            </TableRow>[m
+[32m+[m
+             <Button[m
+                 android:id="@+id/graph"[m
+                 android:layout_width="match_parent"[m
+[36m@@ -768,6 +938,7 @@[m
+                 android:textColor="@android:color/black"[m
+                 tools:layout_editor_absoluteX="58dp"[m
+                 tools:layout_editor_absoluteY="364dp" />[m
+[32m+[m
+         </TableLayout>[m
+     </ScrollView>[m
+ [m
