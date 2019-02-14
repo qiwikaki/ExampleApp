@@ -46,9 +46,8 @@
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="235dp"
-            app:srcCompat="@drawable/kompas"
-            />
+            android:layout_height="207dp"
+            app:srcCompat="@drawable/kompas" />
 
         <TextView
             android:id="@+id/Header"
@@ -58,7 +57,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="40dp"
-            android:text="Отклонение от севера: 0.0" />
+            android:text="Отклонение от севера °: 0.0" />
 
     </LinearLayout>
 
