@@ -100,57 +100,57 @@ public class Main3Activity extends AppCompatActivity {
 
 
 
-        double RuOnDelta0 = (A1 + B1*0 + C1*1 + D1*0 + E1*1) - A1;
-        double RuOnDelta15 = (A1 + B1*0.2588 + C1*0.9659 + D1*0.5 + E1*0.866) - A1;
-        double RuOnDelta30 = (A1 + B1*0.5 + C1*0.866 + D1*0.866 + E1*0.5) - A1;
-        double RuOnDelta45 = (A1 + B1*0.7071 + C1*0.7071 + D1*1 + E1*0) - A1;
-        double RuOnDelta60 = (A1 + B1*0.866 + C1*0.5 + D1*0.866 + E1*(-0.5)) - A1;
-        double RuOnDelta75 = (A1 + B1*0.9659 + C1*0.2588 + D1*0.5 + E1*(-0.866)) - A1;
-        double RuOnDelta90 = (A1 + B1*1 + C1*0 + D1*0 + E1*(-1)) - A1;
-        double RuOnDelta105 = (A1 + B1*0.9659 + C1*(-0.258) + D1*(-0.5) + E1*(-0.866)) - A1;
-        double RuOnDelta120 = (A1 + B1*.866 + C1*(-0.5) + D1*(-0.866) + E1*(-0.5)) - A1;
-        double RuOnDelta135 = (A1 + B1*0.7071 + C1*(-0.7071) + D1*(-1) + E1*0) - A1;
-        double RuOnDelta150 = (A1 + B1*0.5 + C1*(-0.866) + D1*(-0.866) + E1*0.5) - A1;
-        double RuOnDelta165 = (A1 + B1*0.2588 + C1*(-0.9659) + D1*(-0.5) + E1*0.866) - A1;
-        double RuOnDelta180 = (A1 + B1*0 + C1*(-1) + D1*0 + E1*1) - A1;
-        double RuOnDelta195 = (A1 + B1*(-0.2588) + C1*(-0.9659) + D1*0.5 + E1*0.866) - A1;
-        double RuOnDelta210 = (A1 + B1*(-0.5) + C1*(-0.866) + D1*0.866 + E1*0.5) - A1;
-        double RuOnDelta225 = (A1 + B1*(-0.7071) + C1*(-0.7071) + D1*1 + E1*0) - A1;
-        double RuOnDelta240 = (A1 + B1*(-0.866) + C1*(-0.5) + D1*0.866 + E1*(-0.5)) - A1;
-        double RuOnDelta255 = (A1 + B1*(-0.9659) + C1*(-0.258) + D1*0.5 + E1*(-0.866)) - A1;
-        double RuOnDelta270 = (A1 + B1*(-1) + C1*0 + D1*0 + E1*(-1)) - A1;
-        double RuOnDelta285 = (A1 + B1*(-0.9659) + C1*0.2588 + D1*(-0.5) + E1*(-0.866)) - A1;
-        double RuOnDelta300 = (A1 + B1*(-0.866) + C1*0.5 + D1*(-0.866) + E1*(-0.5)) - A1;
-        double RuOnDelta315 = (A1 + B1*(-0.7071) + C1*0.7071 + D1*(-1) + E1*0) - A1;
-        double RuOnDelta330 = (A1 + B1*(-0.5) + C1*0.866 + D1*(-0.866) + E1*0.5) - A1;
-        double RuOnDelta345 = (A1 + B1*(-0.2588) + C1*0.9659 + D1*(-0.5) + E1*0.866) - A1;
-        double RuOnDelta360 = (A1 + B1*0 + C1*1 + D1*0 + E1*1) - A1;
+        double RuOnDelta0 = (A1 + B1*0 + C1*1 + D1*0 + E1*1);
+        double RuOnDelta15 = (A1 + B1*0.2588 + C1*0.9659 + D1*0.5 + E1*0.866);
+        double RuOnDelta30 = (A1 + B1*0.5 + C1*0.866 + D1*0.866 + E1*0.5);
+        double RuOnDelta45 = (A1 + B1*0.7071 + C1*0.7071 + D1*1 + E1*0);
+        double RuOnDelta60 = (A1 + B1*0.866 + C1*0.5 + D1*0.866 + E1*(-0.5));
+        double RuOnDelta75 = (A1 + B1*0.9659 + C1*0.2588 + D1*0.5 + E1*(-0.866));
+        double RuOnDelta90 = (A1 + B1*1 + C1*0 + D1*0 + E1*(-1));
+        double RuOnDelta105 = (A1 + B1*0.9659 + C1*(-0.258) + D1*(-0.5) + E1*(-0.866));
+        double RuOnDelta120 = (A1 + B1*.866 + C1*(-0.5) + D1*(-0.866) + E1*(-0.5));
+        double RuOnDelta135 = (A1 + B1*0.7071 + C1*(-0.7071) + D1*(-1) + E1*0);
+        double RuOnDelta150 = (A1 + B1*0.5 + C1*(-0.866) + D1*(-0.866) + E1*0.5);
+        double RuOnDelta165 = (A1 + B1*0.2588 + C1*(-0.9659) + D1*(-0.5) + E1*0.866);
+        double RuOnDelta180 = (A1 + B1*0 + C1*(-1) + D1*0 + E1*1);
+        double RuOnDelta195 = (A1 + B1*(-0.2588) + C1*(-0.9659) + D1*0.5 + E1*0.866);
+        double RuOnDelta210 = (A1 + B1*(-0.5) + C1*(-0.866) + D1*0.866 + E1*0.5);
+        double RuOnDelta225 = (A1 + B1*(-0.7071) + C1*(-0.7071) + D1*1 + E1*0);
+        double RuOnDelta240 = (A1 + B1*(-0.866) + C1*(-0.5) + D1*0.866 + E1*(-0.5));
+        double RuOnDelta255 = (A1 + B1*(-0.9659) + C1*(-0.258) + D1*0.5 + E1*(-0.866));
+        double RuOnDelta270 = (A1 + B1*(-1) + C1*0 + D1*0 + E1*(-1));
+        double RuOnDelta285 = (A1 + B1*(-0.9659) + C1*0.2588 + D1*(-0.5) + E1*(-0.866));
+        double RuOnDelta300 = (A1 + B1*(-0.866) + C1*0.5 + D1*(-0.866) + E1*(-0.5));
+        double RuOnDelta315 = (A1 + B1*(-0.7071) + C1*0.7071 + D1*(-1) + E1*0);
+        double RuOnDelta330 = (A1 + B1*(-0.5) + C1*0.866 + D1*(-0.866) + E1*0.5);
+        double RuOnDelta345 = (A1 + B1*(-0.2588) + C1*0.9659 + D1*(-0.5) + E1*0.866);
+        double RuOnDelta360 = (A1 + B1*0 + C1*1 + D1*0 + E1*1);
 
-        double RuOffDelta0 = (A2 +B2*0 + C2*1 +D2*0 + E2*1) - A2;
-        double RuOffDelta15 = (A2 +B2*0.2588 + C2*0.9659 +D2*0.5 + E2*0.866) - A2;
-        double RuOffDelta30 = (A2 +B2*0.5 + C2*0.866 +D2*0.866 + E2*0.5) - A2;
-        double RuOffDelta45 = (A2 +B2*0.7071 + C2*0.7071 +D2*1 + E2*0) - A2;
-        double RuOffDelta60 = (A2 +B2*0.866 + C2*0.5 +D2*0.866 + E2*(-0.5)) - A2;
-        double RuOffDelta75 = (A2 +B2*0.9659 + C2*0.2588 +D2*0.5 + E2*(-0.866)) - A2;
-        double RuOffDelta90 = (A2 +B2*1 + C2*0 +D2*0 + E2*(-1)) - A2;
-        double RuOffDelta105 = (A2 +B2*0.9659 + C2*(-0.258) +D2*(-0.5) + E2*(-0.866)) - A2;
-        double RuOffDelta120 = (A2 +B2*.866 + C2*(-0.5) +D2*(-0.866) + E2*(-0.5)) - A2;
-        double RuOffDelta135 = (A2 +B2*0.7071 + C2*(-0.7071) +D2*(-1) + E2*0) - A2;
-        double RuOffDelta150 = (A2 +B2*0.5 + C2*(-0.866) +D2*(-0.866) + E2*0.5) - A2;
-        double RuOffDelta165 = (A2 +B2*0.2588 + C2*(-0.9659) +D2*(-0.5) + E2*0.866) - A2;
-        double RuOffDelta180 = (A2 +B2*0 + C2*(-1) +D2*0 + E2*1) - A2;
-        double RuOffDelta195 = (A2 +B2*(-0.2588) + C2*(-0.9659) +D2*0.5 + E2*0.866) - A2;
-        double RuOffDelta210 = (A2 +B2*(-0.5) + C2*(-0.866) +D2*0.866 + E2*0.5) - A2;
-        double RuOffDelta225 = (A2 +B2*(-0.7071) + C2*(-0.7071) +D2*1 + E2*0) - A2;
-        double RuOffDelta240 = (A2 +B2*(-0.866) + C2*(-0.5) +D2*0.866 + E2*(-0.5)) - A2;
-        double RuOffDelta255 = (A2 +B2*(-0.9659) + C2*(-0.258) +D2*0.5 + E2*(-0.866)) - A2;
-        double RuOffDelta270 = (A2 +B2*(-1) + C2*0 +D2*0 + E2*(-1)) - A2;
-        double RuOffDelta285 = (A2 +B2*(-0.9659) + C2*0.2588 +D2*(-0.5) + E2*(-0.866)) - A2;
-        double RuOffDelta300 = (A2 +B2*(-0.866) + C2*0.5 +D2*(-0.866) + E2*(-0.5)) - A2;
-        double RuOffDelta315 = (A2 +B2*(-0.7071) + C2*0.7071 +D2*(-1) + E2*0) - A2;
-        double RuOffDelta330 = (A2 +B2*(-0.5) + C2*0.866 +D2*(-0.866) + E2*0.5) - A2;
-        double RuOffDelta345 = (A2 +B2*(-0.2588) + C2*0.9659 +D2*(-0.5) + E2*0.866) - A2;
-        double RuOffDelta360 = (A2 +B2*0 + C2*1 +D2*0 + E2*1) - A2;
+        double RuOffDelta0 = (A2 +B2*0 + C2*1 +D2*0 + E2*1);
+        double RuOffDelta15 = (A2 +B2*0.2588 + C2*0.9659 +D2*0.5 + E2*0.866);
+        double RuOffDelta30 = (A2 +B2*0.5 + C2*0.866 +D2*0.866 + E2*0.5);
+        double RuOffDelta45 = (A2 +B2*0.7071 + C2*0.7071 +D2*1 + E2*0);
+        double RuOffDelta60 = (A2 +B2*0.866 + C2*0.5 +D2*0.866 + E2*(-0.5));
+        double RuOffDelta75 = (A2 +B2*0.9659 + C2*0.2588 +D2*0.5 + E2*(-0.866));
+        double RuOffDelta90 = (A2 +B2*1 + C2*0 +D2*0 + E2*(-1));
+        double RuOffDelta105 = (A2 +B2*0.9659 + C2*(-0.258) +D2*(-0.5) + E2*(-0.866));
+        double RuOffDelta120 = (A2 +B2*.866 + C2*(-0.5) +D2*(-0.866) + E2*(-0.5));
+        double RuOffDelta135 = (A2 +B2*0.7071 + C2*(-0.7071) +D2*(-1) + E2*0);
+        double RuOffDelta150 = (A2 +B2*0.5 + C2*(-0.866) +D2*(-0.866) + E2*0.5);
+        double RuOffDelta165 = (A2 +B2*0.2588 + C2*(-0.9659) +D2*(-0.5) + E2*0.866);
+        double RuOffDelta180 = (A2 +B2*0 + C2*(-1) +D2*0 + E2*1);
+        double RuOffDelta195 = (A2 +B2*(-0.2588) + C2*(-0.9659) +D2*0.5 + E2*0.866);
+        double RuOffDelta210 = (A2 +B2*(-0.5) + C2*(-0.866) +D2*0.866 + E2*0.5);
+        double RuOffDelta225 = (A2 +B2*(-0.7071) + C2*(-0.7071) +D2*1 + E2*0);
+        double RuOffDelta240 = (A2 +B2*(-0.866) + C2*(-0.5) +D2*0.866 + E2*(-0.5));
+        double RuOffDelta255 = (A2 +B2*(-0.9659) + C2*(-0.258) +D2*0.5 + E2*(-0.866));
+        double RuOffDelta270 = (A2 +B2*(-1) + C2*0 +D2*0 + E2*(-1));
+        double RuOffDelta285 = (A2 +B2*(-0.9659) + C2*0.2588 +D2*(-0.5) + E2*(-0.866));
+        double RuOffDelta300 = (A2 +B2*(-0.866) + C2*0.5 +D2*(-0.866) + E2*(-0.5));
+        double RuOffDelta315 = (A2 +B2*(-0.7071) + C2*0.7071 +D2*(-1) + E2*0);
+        double RuOffDelta330 = (A2 +B2*(-0.5) + C2*0.866 +D2*(-0.866) + E2*0.5);
+        double RuOffDelta345 = (A2 +B2*(-0.2588) + C2*0.9659 +D2*(-0.5) + E2*0.866);
+        double RuOffDelta360 = (A2 +B2*0 + C2*1 +D2*0 + E2*1);
 
 
         TextView textResult11 = (TextView)findViewById(R.id.result11);
@@ -179,6 +179,7 @@ public class Main3Activity extends AppCompatActivity {
         TextView textResult124 = (TextView)findViewById(R.id.result124);
         TextView textResult125 = (TextView)findViewById(R.id.result125);
 
+
         TextView textResult21 = (TextView)findViewById(R.id.result21);
         TextView textResult22 = (TextView)findViewById(R.id.result22);
         TextView textResult23 = (TextView)findViewById(R.id.result23);
@@ -204,7 +205,7 @@ public class Main3Activity extends AppCompatActivity {
         TextView textResult223 = (TextView)findViewById(R.id.result223);
         TextView textResult224 = (TextView)findViewById(R.id.result224);
         TextView textResult225 = (TextView)findViewById(R.id.result225);
-//
+
         TextView resultA1 = (TextView)findViewById(R.id.A1);
         TextView resultA2 = (TextView)findViewById(R.id.A2);
         TextView resultB1 = (TextView)findViewById(R.id.B1);
@@ -216,22 +217,23 @@ public class Main3Activity extends AppCompatActivity {
         TextView resultD1 = (TextView)findViewById(R.id.E1);
         TextView resultD2 = (TextView)findViewById(R.id.E2);
 
+        resultA1.setText(new DecimalFormat("##.##").format(A1));
+        resultA2.setText(new DecimalFormat("##.##").format(A2));
+        resultB1.setText(new DecimalFormat("##.##").format(B1));
+        resultB2.setText(new DecimalFormat("##.##").format(B2));
+        resultC1.setText(new DecimalFormat("##.##").format(C1));
+        resultC2.setText(new DecimalFormat("##.##").format(C2));
+        resultE1.setText(new DecimalFormat("##.##").format(D1));
+        resultE2.setText(new DecimalFormat("##.##").format(D2));
+        resultD1.setText(new DecimalFormat("##.##").format(E1));
+        resultD2.setText(new DecimalFormat("##.##").format(E2));
 
         DecimalFormatSymbols otherSymbols = new DecimalFormatSymbols(Locale.US);
         String pattern = "##0.0";
         DecimalFormat decimalFormat = new DecimalFormat(pattern, otherSymbols);
 
 
-        resultA1.setText(decimalFormat.format(A1));
-        resultA2.setText(decimalFormat.format(A2));
-        resultB1.setText(decimalFormat.format(B1));
-        resultB2.setText(decimalFormat.format(B2));
-        resultC1.setText(decimalFormat.format(C1));
-        resultC2.setText(decimalFormat.format(C2));
-        resultE1.setText(decimalFormat.format(D1));
-        resultE2.setText(decimalFormat.format(D2));
-        resultD1.setText(decimalFormat.format(E1));
-        resultD2.setText(decimalFormat.format(E2));
+
 
         //
         textResult11.setText(decimalFormat.format(RuOnDelta0));
@@ -295,7 +297,7 @@ public class Main3Activity extends AppCompatActivity {
               @Override
               public void onClick(View v) {
 
-                  Intent intentGraph = new Intent(Main3Activity.this, Main4Activity.class);
+                  Intent intentTable = new Intent(Main3Activity.this, Main5Activity.class);
 
                   TextView textResult11 = (TextView)findViewById(R.id.result11);
                   TextView textResult12 = (TextView)findViewById(R.id.result12);
@@ -350,7 +352,12 @@ public class Main3Activity extends AppCompatActivity {
                   TextView textResult225 = (TextView)findViewById(R.id.result225);
 
 
+                  TextView resultA1 = (TextView)findViewById(R.id.A1);
+                  TextView resultA2 = (TextView)findViewById(R.id.A2);
 
+
+                  intentTable.putExtra("ka1",resultA1 .getText().toString());
+                  intentTable.putExtra("ka2",resultA2 .getText().toString());
                   /*double example1 = 0.5;
                   double example2 = 1.2;
                   intentGraph.putExtra("price",example1);
@@ -362,59 +369,113 @@ public class Main3Activity extends AppCompatActivity {
                   double RuOnDelta15 = Double.parseDouble(textResult12.getText().toString());
                   intentGraph.putExtra("price2",RuOnDelta15);*/
 
-                  intentGraph.putExtra("RuOnDelta0",textResult11 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta15",textResult12 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta30",textResult13 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta45",textResult14 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta60",textResult15 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta75",textResult16 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta90",textResult17 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta105",textResult18 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta120",textResult19 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta135",textResult110 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta150",textResult111 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta165",textResult112 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta180",textResult113 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta195",textResult114 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta210",textResult115 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta225",textResult116 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta240",textResult117 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta255",textResult118 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta270",textResult119 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta285",textResult120 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta300",textResult121 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta315",textResult122 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta330",textResult123 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta345",textResult124 .getText().toString());
-                  intentGraph.putExtra("RuOnDelta360",textResult125 .getText().toString());
+                  Double RuOnDelta0 = Double.parseDouble(textResult11.getText().toString());
+                  Double RuOnDelta15 = Double.parseDouble(textResult12.getText().toString());
+                  Double RuOnDelta30 = Double.parseDouble(textResult13.getText().toString());
+                  Double RuOnDelta45 = Double.parseDouble(textResult14.getText().toString());
+                  Double RuOnDelta60 = Double.parseDouble(textResult15.getText().toString());
+                  Double RuOnDelta75 = Double.parseDouble(textResult16.getText().toString());
+                  Double RuOnDelta90 = Double.parseDouble(textResult17.getText().toString());
+                  Double RuOnDelta105 = Double.parseDouble(textResult18.getText().toString());
+                  Double RuOnDelta120 = Double.parseDouble(textResult19 .getText().toString());
+                  Double RuOnDelta135 = Double.parseDouble(textResult110.getText().toString());
+                  Double RuOnDelta150 = Double.parseDouble(textResult111.getText().toString());
+                  Double RuOnDelta165 = Double.parseDouble(textResult112.getText().toString());
+                  Double RuOnDelta180 = Double.parseDouble(textResult113.getText().toString());
+                  Double RuOnDelta195 = Double.parseDouble(textResult114.getText().toString());
+                  Double RuOnDelta210 = Double.parseDouble(textResult115.getText().toString());
+                  Double RuOnDelta225 = Double.parseDouble(textResult116.getText().toString());
+                  Double RuOnDelta240 = Double.parseDouble(textResult117.getText().toString());
+                  Double RuOnDelta255 = Double.parseDouble(textResult118.getText().toString());
+                  Double RuOnDelta270 = Double.parseDouble(textResult119.getText().toString());
+                  Double RuOnDelta285 = Double.parseDouble(textResult120.getText().toString());
+                  Double RuOnDelta300 = Double.parseDouble(textResult121.getText().toString());
+                  Double RuOnDelta315 = Double.parseDouble(textResult122.getText().toString());
+                  Double RuOnDelta330 = Double.parseDouble(textResult123.getText().toString());
+                  Double RuOnDelta345 = Double.parseDouble(textResult124.getText().toString());
+                  Double RuOnDelta360 = Double.parseDouble(textResult125.getText().toString());
 
-                  intentGraph.putExtra("RuOffDelta0",textResult21 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta15",textResult22 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta30",textResult23 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta45",textResult24 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta60",textResult25 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta75",textResult26 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta90",textResult27 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta105",textResult28 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta120",textResult29 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta135",textResult210 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta150",textResult211 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta165",textResult212 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta180",textResult213 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta195",textResult214 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta210",textResult215 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta225",textResult216 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta240",textResult217 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta255",textResult218 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta270",textResult219 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta285",textResult220 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta300",textResult221 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta315",textResult222 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta330",textResult223 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta345",textResult224 .getText().toString());
-                  intentGraph.putExtra("RuOffDelta360",textResult225 .getText().toString());
+                  Double RuOffDelta0 = Double.parseDouble(textResult21.getText().toString());
+                  Double RuOffDelta15 = Double.parseDouble(textResult22.getText().toString());
+                  Double RuOffDelta30 = Double.parseDouble(textResult23.getText().toString());
+                  Double RuOffDelta45 = Double.parseDouble(textResult24.getText().toString());
+                  Double RuOffDelta60 = Double.parseDouble(textResult25.getText().toString());
+                  Double RuOffDelta75 = Double.parseDouble(textResult26.getText().toString());
+                  Double RuOffDelta90 = Double.parseDouble(textResult27.getText().toString());
+                  Double RuOffDelta105 = Double.parseDouble(textResult28.getText().toString());
+                  Double RuOffDelta120 = Double.parseDouble(textResult29 .getText().toString());
+                  Double RuOffDelta135 = Double.parseDouble(textResult210.getText().toString());
+                  Double RuOffDelta150 = Double.parseDouble(textResult211.getText().toString());
+                  Double RuOffDelta165 = Double.parseDouble(textResult212.getText().toString());
+                  Double RuOffDelta180 = Double.parseDouble(textResult213.getText().toString());
+                  Double RuOffDelta195 = Double.parseDouble(textResult214.getText().toString());
+                  Double RuOffDelta210 = Double.parseDouble(textResult215.getText().toString());
+                  Double RuOffDelta225 = Double.parseDouble(textResult216.getText().toString());
+                  Double RuOffDelta240 = Double.parseDouble(textResult217.getText().toString());
+                  Double RuOffDelta255 = Double.parseDouble(textResult218.getText().toString());
+                  Double RuOffDelta270 = Double.parseDouble(textResult219.getText().toString());
+                  Double RuOffDelta285 = Double.parseDouble(textResult220.getText().toString());
+                  Double RuOffDelta300 = Double.parseDouble(textResult221.getText().toString());
+                  Double RuOffDelta315 = Double.parseDouble(textResult222.getText().toString());
+                  Double RuOffDelta330 = Double.parseDouble(textResult223.getText().toString());
+                  Double RuOffDelta345 = Double.parseDouble(textResult224.getText().toString());
+                  Double RuOffDelta360 = Double.parseDouble(textResult225.getText().toString());
 
-                  startActivity(intentGraph);
+
+
+                  intentTable.putExtra("RuOnDelta0",RuOnDelta0);
+                  intentTable.putExtra("RuOnDelta15",RuOnDelta15);
+                  intentTable.putExtra("RuOnDelta30",RuOnDelta30);
+                  intentTable.putExtra("RuOnDelta45",RuOnDelta45);
+                  intentTable.putExtra("RuOnDelta60",RuOnDelta60);
+                  intentTable.putExtra("RuOnDelta75",RuOnDelta75);
+                  intentTable.putExtra("RuOnDelta90",RuOnDelta90);
+                  intentTable.putExtra("RuOnDelta105",RuOnDelta105);
+                  intentTable.putExtra("RuOnDelta120",RuOnDelta120);
+                  intentTable.putExtra("RuOnDelta135",RuOnDelta135);
+                  intentTable.putExtra("RuOnDelta150",RuOnDelta150);
+                  intentTable.putExtra("RuOnDelta165",RuOnDelta165);
+                  intentTable.putExtra("RuOnDelta180",RuOnDelta180);
+                  intentTable.putExtra("RuOnDelta195",RuOnDelta195);
+                  intentTable.putExtra("RuOnDelta210",RuOnDelta210);
+                  intentTable.putExtra("RuOnDelta225",RuOnDelta225);
+                  intentTable.putExtra("RuOnDelta240",RuOnDelta240);
+                  intentTable.putExtra("RuOnDelta255",RuOnDelta255);
+                  intentTable.putExtra("RuOnDelta270",RuOnDelta270);
+                  intentTable.putExtra("RuOnDelta285",RuOnDelta285);
+                  intentTable.putExtra("RuOnDelta300",RuOnDelta300);
+                  intentTable.putExtra("RuOnDelta315",RuOnDelta315);
+                  intentTable.putExtra("RuOnDelta330",RuOnDelta330);
+                  intentTable.putExtra("RuOnDelta345",RuOnDelta345);
+                  intentTable.putExtra("RuOnDelta360",RuOnDelta360);
+
+                  intentTable.putExtra("RuOffDelta0",RuOffDelta0);
+                  intentTable.putExtra("RuOffDelta15",RuOffDelta15);
+                  intentTable.putExtra("RuOffDelta30",RuOffDelta30);
+                  intentTable.putExtra("RuOffDelta45",RuOffDelta45);
+                  intentTable.putExtra("RuOffDelta60",RuOffDelta60);
+                  intentTable.putExtra("RuOffDelta75",RuOffDelta75);
+                  intentTable.putExtra("RuOffDelta90",RuOffDelta90);
+                  intentTable.putExtra("RuOffDelta105",RuOffDelta105);
+                  intentTable.putExtra("RuOffDelta120",RuOffDelta120);
+                  intentTable.putExtra("RuOffDelta135",RuOffDelta135);
+                  intentTable.putExtra("RuOffDelta150",RuOffDelta150);
+                  intentTable.putExtra("RuOffDelta165",RuOffDelta165);
+                  intentTable.putExtra("RuOffDelta180",RuOffDelta180);
+                  intentTable.putExtra("RuOffDelta195",RuOffDelta195);
+                  intentTable.putExtra("RuOffDelta210",RuOffDelta210);
+                  intentTable.putExtra("RuOffDelta225",RuOffDelta225);
+                  intentTable.putExtra("RuOffDelta240",RuOffDelta240);
+                  intentTable.putExtra("RuOffDelta255",RuOffDelta255);
+                  intentTable.putExtra("RuOffDelta270",RuOffDelta270);
+                  intentTable.putExtra("RuOffDelta285",RuOffDelta285);
+                  intentTable.putExtra("RuOffDelta300",RuOffDelta300);
+                  intentTable.putExtra("RuOffDelta315",RuOffDelta315);
+                  intentTable.putExtra("RuOffDelta330",RuOffDelta330);
+                  intentTable.putExtra("RuOffDelta345",RuOffDelta345);
+                  intentTable.putExtra("RuOffDelta360",RuOffDelta360);
+
+                  startActivity(intentTable);
               }
           }
         );
